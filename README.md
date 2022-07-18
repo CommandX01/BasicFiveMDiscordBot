@@ -10,3 +10,9 @@ Installation:
 
 1. Install the required modules (discord etc..) with: pip3 install -r requirements.txt
 2. Execute export DISCORDM=<token> to set an environment variable with your bot token
+
+
+Example Images
+![image](https://user-images.githubusercontent.com/105607045/179435446-4f95323f-48ef-49dd-b09f-8babbfcd8a19.png)
+![image](https://user-images.githubusercontent.com/105607045/179435473-90e0c1d9-2182-4fac-93ed-5f3d2f9ca5d6.png)
+![image](https://user-images.githubusercontent.com/105607045/179435562-af3652cd-3206-4b4b-8800-204198facebe.png)
