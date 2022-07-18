@@ -56,8 +56,8 @@ parser.add_argument(
 	'-S',
 	type=str, 
 	required=False,
-	default='outbackroleplay.cf',
-	help="outbackroleplay.cf"
+	default='outbackroleplay.cf', #Change To Your Server IP
+	help="outbackroleplay.cf" #Change To Your Server IP
 )
 
 parser.add_argument(
@@ -65,8 +65,8 @@ parser.add_argument(
 	'-P',
 	type=str, 
 	required=False,
-	default='10527',
-	help="10527"
+	default='10527', #Change To Your Server Port
+	help="10527" #Change To Your Server Port
 )
 
 parser.add_argument(
@@ -74,8 +74,8 @@ parser.add_argument(
 	'-T',
 	type=int, 
 	required=False,
-	default='10',
-	help="10"
+	default='10', #Change To How Often In seconds you want it to update
+	help="10" #Change To How Often In seconds you want it to update
 )
 
 parser.add_argument(
@@ -83,8 +83,8 @@ parser.add_argument(
 	'-Pc',
 	type=int, 
 	required=False,
-	default='32',
-	help="32"
+	default='32', #Change To The Max Amount Of Players than can join your server
+	help="32" #Change To The Max Amount Of Players than can join your server
 )
 
 arguments = parser.parse_args()
